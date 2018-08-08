@@ -1,7 +1,8 @@
 import urllib.request
 import time
 def get_price():
-    page=urllib.request.urlopen("file:///home/agila/myfirst.html")
+    page=urllib.request.urlopen("myfirst.html")
+    file=open("myfirst.html")
     decoding=page.read().decode("utf8")
     where=decoding.find('>$')
     startprice=where+2
