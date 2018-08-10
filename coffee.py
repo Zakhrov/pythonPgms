@@ -8,7 +8,7 @@ def get_price():
     startprice=where+2
     endprice=startprice+4
     return float(decoding[startprice:endprice])
-
+#this is new change for git
 option=input("do you want the price immediatelt?y/n")
 if option=="y":
     print(get_price())
