@@ -1,5 +1,7 @@
-Coffee Shop Python Program
-=============================
+Head First Programming Python Programs
+========================================
+
+A readme tells other developers what your program is, what it does and how to compile/run it
 
 Build/ Installation Instructions
 ================================
