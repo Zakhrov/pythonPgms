@@ -1,14 +1,13 @@
 import urllib.request
 import time
 def get_price():
-    page=urllib.request.urlopen("myfirst.html")
-    file=open("myfirst.html")
+    page=urllib.request.urlopen("file:///home/agila/myfirst.html")
     decoding=page.read().decode("utf8")
     where=decoding.find('>$')
     startprice=where+2
     endprice=startprice+4
     return float(decoding[startprice:endprice])
-#this is new change for git
+
 option=input("do you want the price immediatelt?y/n")
 if option=="y":
     print(get_price())
