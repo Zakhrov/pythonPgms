@@ -1,0 +1,9 @@
+Family={
+    1:"mom",
+    2:"dad",
+    3:"siblings",
+    4:"inlaws",
+    "poi":"outlaws",
+    }
+#???????????
+print(Family["poi"])
